@@ -1,6 +1,6 @@
 # React Node Auth
 
-![Banner del proyecto](assets/prod001.webp)
+![Banner del proyecto](assets/Project001Cover.png)
 
 > Proyecto de autenticación de usuarios con frontend en React y backend en Express, utilizando MySQL como base de datos.  
 > Sistema robusto y seguro para gestión de usuarios, login, registro y protección de rutas.

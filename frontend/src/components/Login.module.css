@@ -33,7 +33,7 @@
   stroke: white;
   stroke-width: 1.5;
   fill: none;
-  opacity: 0.04; 
+  opacity: 0; 
   pointer-events: none;
   z-index: 0; 
 }

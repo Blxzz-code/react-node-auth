@@ -46,7 +46,7 @@ function App() {
           onClick={() => setActiveForm('login')}
           type="button"
         >
-          Login
+          Iniciar sesión
         </button>
         <button
           className={`${styles.toggleButton} ${
@@ -55,7 +55,7 @@ function App() {
           onClick={() => setActiveForm('register')}
           type="button"
         >
-          Register
+          Registrase
         </button>
       </div>
 
