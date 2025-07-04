@@ -1,0 +1,76 @@
+.app {
+  min-height: 100vh;
+  background-color: #0f0f0f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #eee;
+  font-family: 'Syne', sans-serif;
+}
+
+.app {
+  min-height: 100vh;
+  background-color: #0f0f0f;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #eee;
+  font-family: 'Syne', sans-serif;
+  padding: 20px;
+}
+
+.welcome {
+  text-align: center;
+}
+
+.logoutButton {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 16px;
+  color: #000000;
+  transition: background-color 0.3s ease;
+}
+
+.logoutButton:hover {
+  background-color: #ffffff;
+}
+
+.toggleButtons {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-bottom: 24px;
+  font-family: 'Syne', sans-serif;
+}
+
+.toggleButton {
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.4);
+  color: rgba(255, 255, 255, 0.6);
+  padding: 10px 28px;
+  border-radius: 24px;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  user-select: none;
+}
+
+.toggleButton:hover {
+  border-color: rgba(255, 255, 255, 0.8);
+  color: #fff;
+}
+
+.activeToggle {
+  background-color: #fff;
+  color: #000;
+  border-color: #fff;
+  font-weight: 700;
+}
+
