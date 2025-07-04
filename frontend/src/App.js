@@ -5,7 +5,7 @@ import styles from './App.module.css';
 
 function App() {
   const [user, setUser] = useState(null);
-  const [activeForm, setActiveForm] = useState('login'); // 'login' o 'register'
+  const [activeForm, setActiveForm] = useState('login');
 
   const handleLogin = (data) => {
     setUser(data.user);
