@@ -41,27 +41,22 @@
 ```bash
 git clone https://github.com/tu-usuario/react-node-auth.git
 cd react-node-auth
+
 2. Configurar el backend
-bash
-Copiar
-Editar
+
 cd backend
 npm install
 Crea un archivo .env con tus variables de entorno, por ejemplo:
 
-ini
-Copiar
-Editar
 DB_HOST=localhost
 DB_USER=tu_usuario
 DB_PASSWORD=tu_password
 DB_NAME=nombre_base_de_datos
 PORT=3001
 JWT_SECRET=tu_secreto_seguro
+
 3. Configurar el frontend
-bash
-Copiar
-Editar
+
 cd ../frontend
 npm install
 En el código React, configura la URL de la API para que apunte a tu backend 
@@ -70,16 +65,10 @@ En el código React, configura la URL de la API para que apunte a tu backend
 4. Ejecutar la aplicación
 En terminal 1 (backend):
 
-bash
-Copiar
-Editar
 cd backend
 npm start
 En terminal 2 (frontend):
 
-bash
-Copiar
-Editar
 cd frontend
 npm start
 Abre en tu navegador http://localhost:3000
