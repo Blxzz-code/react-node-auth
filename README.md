@@ -64,7 +64,8 @@ Copiar
 Editar
 cd ../frontend
 npm install
-En el código React, configura la URL de la API para que apunte a tu backend (puede estar en .env o directamente en las llamadas fetch).
+En el código React, configura la URL de la API para que apunte a tu backend 
+(puede estar en .env o directamente en las llamadas fetch).
 
 4. Ejecutar la aplicación
 En terminal 1 (backend):
@@ -84,7 +85,8 @@ npm start
 Abre en tu navegador http://localhost:3000
 
 Despliegue
-Frontend: Puedes desplegarlo fácilmente en Netlify, Vercel o similar. Recuerda generar el build (npm run build) y subir la carpeta /build o configurar el deploy automático con GitHub.
+Frontend: Puedes desplegarlo fácilmente en Netlify, Vercel o similar. Recuerda generar el build (npm run build) 
+y subir la carpeta /build o configurar el deploy automático con GitHub.
 
 Backend: Puedes desplegarlo en Render, Heroku o cualquier servicio que soporte Node.js.
 
