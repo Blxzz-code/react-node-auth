@@ -111,6 +111,5 @@ Autor
 Sergio Godoy
 Email: sgdivergente13@gmail.com
 GitHub: https://github.com/Blxzz-code
-Contacto
-Si tienes preguntas, ideas o quieres colaborar, no dudes en contactarme.
+
 
